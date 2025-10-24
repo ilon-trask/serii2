@@ -15,8 +15,8 @@ export function IntegrationSection() {
       </div>
 
       <Card className="p-8  grid gap-8 lg:grid-cols-2 lg:items-center">
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-500 to-pink-400 p-1">
-          <div className="rounded-xl bg-background p-6">
+        <div className="relative overflow-hidden rounded-2xl bg-action p-2">
+          <div className="rounded-xl bg-background ">
             <Image src={Second} alt="First" width={600} height={400} />
           </div>
         </div>
@@ -40,7 +40,9 @@ export function IntegrationSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-muted-foreground">Secure & Simple Checkouts</span>
+              <span className="text-muted-foreground">
+                Secure & Simple Checkouts
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <svg
@@ -56,7 +58,9 @@ export function IntegrationSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-muted-foreground">Integrated Customer Portal</span>
+              <span className="text-muted-foreground">
+                Integrated Customer Portal
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <svg
@@ -90,13 +94,12 @@ export function IntegrationSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-muted-foreground">Global Merchant of Record</span>
+              <span className="text-muted-foreground">
+                Global Merchant of Record
+              </span>
             </li>
           </ul>
-          <Button
-            variant="outline"
-            className="mt-6"
-          >
+          <Button variant="outline" className="mt-6">
             Learn More
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

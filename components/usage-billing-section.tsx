@@ -25,8 +25,8 @@ export function UsageBillingSection() {
             {"Capture your Customer's LLM Usage & bill them for it"}
           </p>
         </div>
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-400 via-pink-500 to-blue-600 p-1">
-          <div className="rounded-xl bg-background p-6">
+        <div className="relative overflow-hidden rounded-2xl bg-action p-2">
+          <div className="rounded-xl bg-background">
             <Image src={First} alt="First" width={600} height={400} />
           </div>
         </div>

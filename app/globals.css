@@ -72,6 +72,7 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 @theme inline {
+  --color-action:#5964FF;
   --font-sans: "Geist", "Geist Fallback";
   --font-mono: "Geist Mono", "Geist Mono Fallback";
   --color-background: var(--background);

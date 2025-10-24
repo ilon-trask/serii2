@@ -12,7 +12,7 @@ export function HeroSection() {
           Turn your small talk into a powerful tool
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button size="lg" className="hover:bg-primary/90">
+          <Button size="lg" className="hover:bg-action/90 bg-action text-white">
             Get Started
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

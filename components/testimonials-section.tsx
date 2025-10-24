@@ -82,7 +82,7 @@ export function TestimonialsSection() {
                     {testimonial.name}
                   </span>
                   {testimonial.verified && (
-                    <CheckCircle2 className="h-4 w-4 text-blue-500" />
+                    <CheckCircle2 className="h-4 w-4 text-action" />
                   )}
                 </div>
                 <span className="text-sm text-muted-foreground">
