@@ -4,11 +4,11 @@ import { ArrowRight } from "lucide-react"
 export function SeedAnnouncementSection() {
   return (
     <section className=" mx-auto px-4 py-20">
-      <div className="overflow-hidden rounded-3xl border border-zinc-500/10 bg-zinc-900/50 p-12 backdrop-blur-sm">
+      <div className="overflow-hidden rounded-3xl p-12 backdrop-blur-sm border bg-card">
         <div className="mb-8 text-center">
-          <p className="mb-4 text-sm text-zinc-500">Seed Investment</p>
+          <p className="mb-4 text-sm text-muted-foreground">Seed Investment</p>
           <h2 className="mb-6 text-4xl font-bold md:text-5xl">Announcing our $10M Seed Round</h2>
-          <Button variant="outline" className="border-white/20 bg-transparent text-white hover:bg-white/10">
+          <Button variant="outline">
             Read the announcement
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

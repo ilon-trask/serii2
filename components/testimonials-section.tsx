@@ -57,7 +57,7 @@ export function TestimonialsSection() {
   return (
     <section className="container mx-auto px-4 py-20" id="testimonials">
       <div className="mb-12 text-center">
-        <p className="mb-4 text-sm text-zinc-500">Testimonials</p>
+        <p className="mb-4 text-sm text-muted-foreground">Testimonials</p>
         <h2 className="mb-8 text-4xl tracking-tight text-balance lg:text-5xl">
           Why people love Polar
         </h2>
@@ -66,7 +66,7 @@ export function TestimonialsSection() {
         {testimonials.map((testimonial, index) => (
           <Card
             key={index}
-            className="border-zinc-500/10 bg-zinc-900/50 p-6 backdrop-blur-sm"
+            className="p-6 backdrop-blur-sm bg-card"
           >
             <div className="mb-4 flex items-center gap-3">
               <Avatar>
@@ -78,19 +78,19 @@ export function TestimonialsSection() {
               </Avatar>
               <div className="flex-1">
                 <div className="flex items-center gap-1">
-                  <span className="font-semibold text-white">
+                  <span className="font-semibold text-foreground">
                     {testimonial.name}
                   </span>
                   {testimonial.verified && (
                     <CheckCircle2 className="h-4 w-4 text-blue-500" />
                   )}
                 </div>
-                <span className="text-sm text-zinc-500">
+                <span className="text-sm text-muted-foreground">
                   {testimonial.handle}
                 </span>
               </div>
             </div>
-            <p className="whitespace-pre-line text-zinc-300">
+            <p className="whitespace-pre-line text-muted-foreground">
               {testimonial.content}
             </p>
           </Card>

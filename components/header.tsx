@@ -19,7 +19,7 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-zinc-500 transition-colors hover:text-white"
+              className="text-muted-foreground transition-colors hover:text-accent-foreground"
             >
               {item.label}
             </Link>

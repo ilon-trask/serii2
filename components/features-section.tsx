@@ -28,13 +28,13 @@ export function FeaturesSection() {
         {features.map((feature, index) => (
           <Card
             key={index}
-            className="border-zinc-500/10 bg-zinc-900/50 p-8 backdrop-blur-sm"
+            className="p-8 backdrop-blur-sm bg-card"
           >
-            {/* <feature.icon className="mb-4 h-8 w-8 text-white" /> */}
-            <h3 className="mb-3 text-3xl tracking-tight text-white">
+            {/* <feature.icon className="mb-4 h-8 w-8 text-foreground" /> */}
+            <h3 className="mb-3 text-3xl tracking-tight text-foreground">
               {feature.title}
             </h3>
-            <p className="mb-6 text-zinc-500">{feature.description}</p>
+            <p className="mb-6 text-muted-foreground">{feature.description}</p>
             {/* {feature.items.length > 0 && (
               <ul className="space-y-2">
                 {feature.items.map((item, i) => (

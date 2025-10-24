@@ -9,7 +9,7 @@ import { LinkSection } from "@/components/link-section";
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white ">
+    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 dark:text-white text-black">
       <div className="max-w-6xl mx-auto">
         <Header />
         <main>
